@@ -1,15 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it as below."
 title: "Functional-Data-Analysis"
-version: "1.0.0"
 authors:
   - family-names: "Tyuryaev"
     given-names: "Vadim"
+    orcid: "https://orcid.org/0009-0008-1361-6265"  
 repository-code: "https://github.com/vadimtyuryaev/Functional-Data-Analysis"
-license: "Apache-2.0 AND CC-BY-4.0"
+url: "https://github.com/vadimtyuryaev/Functional-Data-Analysis"
 type: software
-abstract: "Code, documentation, and data examples for Functional Data Analysis. Code is licensed under Apache 2.0; data and documentation under CC BY 4.0."
-date-released: 2025-09-09
+license: "Apache-2.0 AND CC-BY-4.0"
+version: "1.0.0"
+date-released: "2025-09-09"
 keywords:
   - functional data analysis
   - statistics
@@ -17,3 +18,13 @@ keywords:
   - splines
   - R
   - computational statistics
+
+preferred-citation:
+  type: software
+  title: "Functional-Data-Analysis"
+  authors:
+    - family-names: "Tyuryaev"
+      given-names: "Vadim"
+  year: 2025
+  version: "1.0.0"
+  url: "https://github.com/vadimtyuryaev/Functional-Data-Analysis"
