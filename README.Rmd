@@ -1,0 +1,67 @@
+---
+output: github_document
+bibliography: references.bib
+nocite: '@*'
+---
+  
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Functional Data Analysis repository
+
+<!-- badges: start -->
+![Static Badge](https://img.shields.io/badge/R-language-blue)
+![License](https://img.shields.io/badge/License-Apache%202.0%20%2B%20CC%20BY%204.0-teal.svg)
+![Static Badge](https://img.shields.io/badge/Medium-https://medium.com/@vadimtyuryaev-green)
+![Static Badge](https://img.shields.io/badge/LinkedIn-https%3A%2F%2Fwww.linkedin.com%2Fin%2Fvadimtyuryaev%2F-blue)
+<!-- badges: end -->
+
+<p align="center">
+  <img src="images/DJIA_HAC.jpg" alt="Hierarchical Agglomerative Clustering overview" width="600">
+</p>
+  
+This repository provides a comprehensive exploration of Functional Data Analysis (FDA) 
+which is a modern branch of statistics that models entire data trajectories as 
+realizations of underlying functions, rather than as isolated multivariate points.
+By shifting perspective from discrete observations to continuous functional objects,
+FDA opens the door to more nuanced insights in fields ranging from biomedical
+research and environmental science to finance and engineering.
+
+Designed as both a learning resource and a practical toolkit, this repository is 
+aimed at:
+ 
+* Undergraduate and graduate students seeking an accessible entry point into FDA;
+
+* Researchers who wish to incorporate FDA techniques into applied or theoretical
+projects;
+
+* Data science practitioners looking to move beyond traditional multivariate 
+approaches and capture the dynamics of complex, high-dimensional data.
+
+By visiting the website (`vadimtyuryaev.github.io/Functional-Data-Analysis/`) 
+and actively engaging with the derivations and code, you will:
+  
+1. Grasp the **core concepts of FDA**, understanding how it differs from classical
+statistics by treating observations as smooth functions residing in Hilbert spaces.
+
+2. Learn the difference between **interpolation and smoothing**.
+
+3. Explore **basis function expansions**, including detailed examples of what
+**Fourier series** and **B-splines** are and how they are used to represent discrete 
+data points as continuous curves.
+
+4. Implement Functional Clustering, walking through an application of 
+**Hierarchical Agglomerative Clustering (HAC)** on the price curves of DJIA stocks
+to identify market sectors.
+
+5. Explore how two widely used numerical methods, **ODE solvers (RKF45) and Nonlinear Least Squares (NLS)**, 
+operate at the algorithmic level.
+
+6. Understand modern advances in parameter estimation such as **Generalized Profiling (GP)** 
+for systems of nonlinear differential equations. 
+
+# References
