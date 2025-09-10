@@ -3,7 +3,6 @@
 
 <!-- badges: start -->
 
-![Static Badge](https://img.shields.io/badge/R-language-blue)
 ![License](https://img.shields.io/badge/License-Apache%202.0%20%2B%20CC%20BY%204.0-teal.svg)
 ![Static
 Badge](https://img.shields.io/badge/Medium-https://medium.com/@vadimtyuryaev-green)
