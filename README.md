@@ -12,7 +12,7 @@ Badge](https://img.shields.io/badge/LinkedIn-https%3A%2F%2Fwww.linkedin.com%2Fin
 <!-- badges: end -->
 
 <p align="center">
-<img src="images/DJIA_HAC.jpg" alt="Hierarchical Agglomerative Clustering overview" width="600">
+<img src="Images/DJIA_HAC.jpg" width="600">
 </p>
 
 This repository provides a comprehensive exploration of Functional Data
